@@ -1,0 +1,43 @@
+/* Write your code here. */
+.bgCont {
+  background-color: #ffffff;
+  height: 100vh;
+
+  padding: 40px;
+}
+
+.head {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #1e293b;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.para {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #64748b;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.unis {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.img {
+  background-size: cover;
+  height: 700px;
+  width: 1050px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .img {
+    height: 30vh;
+    background-size: cover;
+  }
+}

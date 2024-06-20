@@ -1,0 +1,22 @@
+/* Write your code here. */
+.thumbImg {
+  border-radius: 2px;
+  margin-right: 10px;
+}
+
+.lists {
+  list-style-type: none;
+}
+
+@media screen and (max-width: 768px) {
+  .thumbImg {
+    height: 5vh;
+    border-radius: 2px;
+    margin-right: 10px;
+  }
+}
+
+.button {
+  background-color: #ffffff;
+  border-style: none;
+}
